@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: white;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+header {
+  height: 75px;
+  display: flex;
+  align-items: center;
+  padding: 42px;
+}
+
+.tepa {
+  display: flex;
+  gap: 40px;
+  margin-left: 290px;
+}
+
+.tepa a,
+.right a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 8px;
+}
+
+.right {
+  display: flex;
+  gap: 20px;
+  margin-left: auto;
+}
+
+.falcon {
+  text-align: center;
+  padding-top: 40px;
+  display: block;
+}
+
+.falcon h1 {
+  font-size: 38px;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+
+.falcon p {
+  color: #aaa;
+  font-size: 10px;
+  line-height: 18px
+}
+
+.orta {
+  display: flex;
+  gap: 130px;
+  padding-left: 80px;
+}
+
+.orta ul {
+  margin-top: 50px;
+  list-style: none;
+}
+
+.hash {
+  padding-left: 80px;
+
+}
+
+.hash2 {
+  padding-left: 80px;
+}
+
+.pas {
+  display: flex;
+  gap: 150px;
+  padding-left: 80px;
+}
+
+.hash2 {
+  padding-left: 80px;
+  padding-top: 500px;
+}
+
+.raketa {
+  width: 644px;
+  height: 1718px;
+}
+
+section {
+  display: flex;
+}
+.ohir{
+  width: 130px;
+  height: 30px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  
+}
+.id{
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding-left: 490px;
+
+}
+button:hover{
+  background-color: white;
+  color: #000;
+  transition: 1s;
+}
+ul li :hover{
+  border-bottom: ;
+}
